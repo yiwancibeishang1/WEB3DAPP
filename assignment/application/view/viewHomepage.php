@@ -17,7 +17,7 @@
 
 
 
-  <title>YRH</title>
+  <title>Assignment</title>
   <style>
    #ul li.active a{
     color: #ee141b;
@@ -41,7 +41,7 @@
   <nav id="headerColor" class="navbar sticky-top navbar-expand-sm navbar_coca_cola">
     <div class="container">
       <div class="logo">
-        <a class="navbar-brand navHome" href="#">
+        <a id="navhome" class="navbar-brand" href="#">
           <h1>1</h1>
           <h1>oca</h1>
           <h2>Cola</h2>
@@ -90,7 +90,7 @@
       </ol>
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img id="banner1" style="width: 100%;"  alt="Coke">
+          <img id="banner1" style="width: 100%;"  alt="Coke" >
         </div>
         <div class="carousel-item">
           <img id="banner2" style="width: 100%;"  alt="sprite">
@@ -117,8 +117,8 @@
     <div style=" align-items: center; margin:0 auto; width: 90%;" class="row">
       <div class="col-sm-4">
         <div class="card card1">
-          <a  id="leftimg" data-fancybox data-caption="My 3D Coke Can Render" class="thumbnail">
-            <img id="leftcard" class="card-img-top img-fluid img-thumbnail" alt="Coca Cola">
+          <a  id="leftimg" data-fancybox data-caption="My 3D Coke Can Render" class="thumbnail" >
+            <img id="leftcard" class="card-img-top img-fluid img-thumbnail" alt="Coca Cola"  >
           </a>
           <div class="card-body">
             <div id="title_left" class="card-title"></div>
@@ -169,15 +169,14 @@
          The back end of the page is implemented using the php language<br>
          The application is implemented using the mvc framework.<br></p> 
 
-         <p>In this application, excluding the data in the about page, all other data is called through the database (texts, urls). The back-end has built four tables (models table, texts table, images table, controller table) in the database to store different categories of data for subsequent management and validation.<br></p> 
+         <p>In this application, excluding the data in the about page, all other data is called through the database (texts, images, models). The back-end has built four tables (models table, texts table, images table, controller table) in the database to store different categories of data for subsequent management and validation.<br></p> 
          <p>The banner combined with the card design is used on the home page. The first impression of the app is the high definition banner image, which is beautiful and comfortable, combined with the cards of the three beverage categories to guide the browsing user.<br>
          In the model page, the left-hand side uses button js to switch between the relevant description and the model.<br>
          In the model interaction, the rotation of the Coke can model was rotated sideways due to a problem with the axes in the modelling, which was declared a failure after several attempts to adjust it, due to too little knowledge of the x3d type and poor understanding due to online material.<br>
-         In the switching of the model, I wanted to use the method given by the teacher in the example, but at the end it was found that it would cause the model to crash, so it was not used.<br>
          The application files have been uploaded to github and can be accessed by clicking on the github icon in the footer.
          <p>
-        <img style="width: 50%; align-items: center;  " src="../../assets/images/screencut/homepage.png" alt="homepage">
-        <img style="width: 50%; align-items: center; " src="../../assets/images/screencut/modelpage.png" alt="modelpage">
+        <img style="width: 50%; align-items: center;  " src="../application/assets/images/screencut/homepage.png" alt="homepage">
+        <img style="width: 50%; align-items: center; " src="../application/assets/images/screencut/modelpage.png" alt="modelpage">
 
         <!-- <h3>Database control</h3>
         <p>Text Table</p>

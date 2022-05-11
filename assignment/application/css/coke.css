@@ -46,7 +46,7 @@
 /* Method to declare your own fonts */
 @font-face {
 font-family: cocaColaFont;
-src: url(../../assets/fonts/loki_cola/LOKICOLA.TTF);
+src: url(../assets/fonts/loki_cola/LOKICOLA.TTF);
 }
 /* Extra small devices (portrait phones, less than 576px)
      No media query since this is the default in Bootstrap

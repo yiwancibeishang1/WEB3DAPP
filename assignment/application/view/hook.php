@@ -1,7 +1,7 @@
 <?php
 
-$directory = '../../../assets/images/gallery_images';
-// $directory = 'assets/images/gallery_images';
+$directory = '../assets/images/gallery_images';
+$imagePath = '../application/assets/images/gallery_images';
 $allowed_extensions = array('jpg','jpeg','gif','png');
 $file_parts = array();
 $response = "";
@@ -13,7 +13,7 @@ while ($file = readdir($dir_handle)){
         $extension = strtolower(array_pop($file_components));
         if(in_array($extension,$allowed_extensions))
         {
-            $response .= $directory. '/'. $file. '~';
+            $response .= $imagePath. '/'. $file. '~';
         }
     }
 }

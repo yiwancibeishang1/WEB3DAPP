@@ -99,11 +99,11 @@ class Model {
 		try{
 			$this->dbhandle->exec(
 			"INSERT INTO imgs (Id, bannerUrl, imageUrl, cardUrl) 
-				VALUES (1, '../../assets/images/cocacola.png', 'assets/images/gallery_images/coke_2.png', '../../assets/images/coca_cola.jpg'); " .
+				VALUES (1, '../application/assets/images/cocacola.png', '../application/assets/images/gallery_images/coke_2.png', '../application/assets/images/coca_cola.jpg'); " .
 			"INSERT INTO imgs (Id, bannerUrl, imageUrl, cardUrl) 
-				VALUES (2, '../../assets/images/love.png', 'assets/images/gallery_images/sprite.png', '../../assets/images/sprite.jpg'); " .
+				VALUES (2, '../application/assets/images/love.png', '../application/assets/images/gallery_images/sprite.png', '../application/assets/images/sprite.jpg'); " .
 			"INSERT INTO imgs (Id, bannerUrl, imageUrl, cardUrl) 
-				VALUES (3, '../../assets/images/schweppes.jpg', 'assets/images/gallery_images/suda.png', '../../assets/images/Schweppes_Bottles.jpg'); " 
+				VALUES (3, '../application/assets/images/schweppes.jpg', '../application/assets/images/gallery_images/suda.png', '../application/assets/images/Schweppes_Bottles.jpg'); " 
 				);
 			return "imgs data inserted successfully inside test1.db";
 		}
@@ -156,11 +156,11 @@ class Model {
 			try{
 				$this->dbhandle->exec(
 				"INSERT INTO models (Id, modelTitle, modelUrl, title, subTitle, description) 
-					VALUES (1, 'Coca Cola Model', 'assets/x3d/coke.x3d', 'History of Coca Cola', 'Atlanta Beginnings','It was 1886, and in New York Harbour, workers were constructing the Statue of Liberty. Eight hundred miles away, another great American symbol was about to be unveiled. Like many people who change history, John Pemberton, an Atlanta pharmacist, was inspired by simple curiosity. One afternoon, he stirred up a fragrant, caramel-coloured liquid and, when it was done, he carried it a few doors down to Jacobs'' Pharmacy. Here, the mixture was combined with carbonated water and sampled by customers who all agreed - this new drink was something special. So Jacobs'' Pharmacy put it on sale for five cents (about 3p) a glass.'); " .
+					VALUES (1, 'Coca Cola Model', '../application/assets/x3d/coke.x3d', 'History of Coca Cola', 'Atlanta Beginnings','It was 1886, and in New York Harbour, workers were constructing the Statue of Liberty. Eight hundred miles away, another great American symbol was about to be unveiled. Like many people who change history, John Pemberton, an Atlanta pharmacist, was inspired by simple curiosity. One afternoon, he stirred up a fragrant, caramel-coloured liquid and, when it was done, he carried it a few doors down to Jacobs'' Pharmacy. Here, the mixture was combined with carbonated water and sampled by customers who all agreed - this new drink was something special. So Jacobs'' Pharmacy put it on sale for five cents (about 3p) a glass.'); " .
 				"INSERT INTO models (Id, modelTitle, modelUrl, title, subTitle, description)  
-					VALUES (2, 'Sprite Model', 'assets/x3d/sprite.x3d', 'Sprite — Fanta Klare Zitrone','First introduced in 1961','Crisp, refreshing, clean-tasting Sprite is now the world''s leading lemon and lime flavoured soft drink and is sold in more than 190 different countries. Sprite Zero, part of Coca Cola''s no sugar Zero range, offers the delicious lemon lime taste of Sprite without the sugar or calories.'); " .
+					VALUES (2, 'Sprite Model', '../application/assets/x3d/sprite.x3d', 'Sprite — Fanta Klare Zitrone','First introduced in 1961','Crisp, refreshing, clean-tasting Sprite is now the world''s leading lemon and lime flavoured soft drink and is sold in more than 190 different countries. Sprite Zero, part of Coca Cola''s no sugar Zero range, offers the delicious lemon lime taste of Sprite without the sugar or calories.'); " .
 				"INSERT INTO models (Id, modelTitle, modelUrl, title, subTitle, description) 
-					VALUES (3, 'Scheweppes Model', 'assets/x3d/suda.x3d', 'Scheweppes''s History','British Royal Family',' In 1792, he moved to London to develop the business there. In 1843, Schweppes commercialised Malvern Water at the Holywell Spring in the Malvern Hills, which was to become a favourite of the British Royal Family until parent company Coca-Cola closed the historic plant in 2010 to local outcry.'); " 
+					VALUES (3, 'Scheweppes Model', '../application/assets/x3d/suda.x3d', 'Scheweppes''s History','British Royal Family',' In 1792, he moved to London to develop the business there. In 1843, Schweppes commercialised Malvern Water at the Holywell Spring in the Malvern Hills, which was to become a favourite of the British Royal Family until parent company Coca-Cola closed the historic plant in 2010 to local outcry.'); " 
 					);
 				return "models data inserted successfully inside data.db";
 			}
