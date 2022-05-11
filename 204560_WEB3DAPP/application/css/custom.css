@@ -1,0 +1,323 @@
+/* X-Small devices (portrait phones, less than 576px)
+   No media query for `xs` since this is the default in Bootstrap
+*/
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) { 
+    /* CSS rule to style the footer */
+    .footer {
+        background-color: #257600;
+        height: 60px;
+    }
+
+    .navbar-text > a {
+        font-size: 10px;
+    }
+
+    .navbar-text > p {
+        color: pink;
+        font-size: 18px;
+    }
+
+    .copyright {
+        padding-top: 20px;
+    }
+
+    .social {
+        padding-top: 7px;
+    }   
+}
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+
+}
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+
+ }
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+
+}
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) { 
+
+}
+
+/* Method to declare your own fonts */
+@font-face {
+font-family: cocaColaFont;
+src: url(../assets/fonts/loki_cola/LOKICOLA.TTF);
+}
+/* Extra small devices (portrait phones, less than 576px)
+     No media query since this is the default in Bootstrap
+    */
+/* body {
+        padding-top: 30px;
+        padding-bottom: 5px;
+        background-color: palevioletred;
+} */
+
+.main_contents{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+    /* Some simple CSS rules for styling p, h1 to h6, etc. in the main 
+content’s container */
+p {
+    font-family: 'Open Sans', sans-serif;
+   
+}
+    
+h1, h2, h4, h5, h6 {
+    /*font-family: 'Oswald', sans-serif;*/
+    font-family: cocaColaFont;
+}
+
+/* Initialize 
+body, dl, dd, ul, ol, p, h1, h2, h3, h4, h5, h6, form, input, textarea, button{
+    margin: 0;
+    padding: 0;
+} */
+
+a{
+    color: pink;
+}
+/* .col-sm-12{
+    padding-left: 100px;
+    padding-right: 100px;
+    
+}
+
+.col-sm-4{
+    padding-right: 100px;
+    padding-left: 100px;
+} */
+
+#main_3d_image {
+    background-image: url(../assets/images/main_3D.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* The div block for the main_3d_image has no vertical size, 
+    so we need a height to see the background image */
+    height: 500px;
+}
+
+#main_text {
+    /* font-size: 20px; */
+    float: left;
+    margin: 5%;
+    width: 90%;
+    /* height: 50%; */
+    display: block;
+    background-color: rgba(255,255,255,0.8);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+        
+#main_text h2 {
+    color: rgb(7, 10, 206);
+    font-size: 25px;
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+
+#main_text h3{
+    font-size: 18px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#main_text p {
+    font-size: 18px;
+    margin: 0px;
+    line-height:1.2;
+}
+
+.btn-primary {
+    color: #ee141b;
+    background-color: rgba(255, 250, 250, 0.719);
+    border-color: rgba(255, 250, 250, 0.719);
+}
+
+.card {
+    border: 1px solid rgba(0, 0, 0, .125);
+    border-radius: .25rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: pink;
+}
+
+/* css logo */
+.logo{
+    margin-top: 3px;
+}
+
+.logo h1{
+    font-family: cocaColaFont;
+    font-size: 31px;
+    margin: 0;
+    margin-top: -10px;
+    margin-bottom: -15px;
+    float: left;
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 2px;
+}
+
+.logo h2 {
+    font-family: cocaColaFont;
+    font-size: 31px;
+    /* margin: 0; */
+    margin-top: -6px;
+    margin-bottom: -15px;
+    float: left;
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 3px;
+}
+
+.logo h3 {
+    font-family: 'Oswald';
+    font-size: 18px;
+    /* margin: 0; */
+    margin-top: 0px;
+    margin-bottom: -5px;
+    float: left;
+    padding-top: 0px;
+    padding-left: 0px;
+}
+
+.logo p{
+    font-size: 7px;
+    margin-top: 22px;
+    margin-bottom: 0px;
+    padding-top: 0px;
+    padding-left: 3px;
+}
+
+/* new css */
+.navbar_coca_cola{
+    background-color: #ee141b;
+    border-width: 0px;
+    min-height: 70px;
+}
+
+.navbar_coca_cola .navbar-brand{
+    color: rgba(245, 235, 235, alpha);
+}
+
+.navbar_coca_cola .navbar-brand:hover{
+    color: white;
+}
+
+.navbar_coca_cola .havbar-nav > li > a {
+    color:white;
+}
+
+.navbar_coca_cola .navbar-nav > li > a:hover,
+.navbar_coca_cola .navbar-nav > li > a:focus{
+    color: rgb(195, 228, 236);
+}
+
+.navbar_coca_cola .navbar-nav .nav-item {
+    margin-top: 0px;
+}
+
+.navbar_coca_cola .navbar-nav .nav-item > .active, 
+.navbar_coca_cola .navbar-nav > .active > a:hover, 
+.navbar_coca_cola .navbar-nav > .active > a:focus {
+    color:  #ee141b; /* Font color for active font */
+    background-color: rgba(255, 250, 250, 0.801)
+    ; /* Blue color for background */
+}
+
+.navbar_coca_cola .navbar-nav > li > a:hover, 
+.navbar_coca_cola  .navbar-nav > li > a:focus {
+    color: rgba(182, 231, 243, 1);  
+}
+
+/* icon bar */
+.navbar_coca_cola .navbar-toggler{
+    border-color: white;
+}
+
+.navbar_coca_cola .navbar-toggler-icon{
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1.0)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+/* dropdown menu */
+
+.dropdown-menu {
+    text-align: -webkit-left;
+    background-color: #e7343a;
+    margin-top: 20px;
+}
+
+.dropdown-menu .dropdown-item {
+    color: pink;
+}
+
+.dropdown-menu .dropdown-item:hover {
+    color: snow;
+    background-color: rgba(255, 250, 250, 0.801);
+}
+
+.navbar_coca_cola .navbar-toggler{
+    outline: none !important;
+}
+
+/* css footer */
+.footer {
+    color:snow;
+    background-color: #e7343a;
+    height: 70px;
+}
+
+.naver-text > a{
+    font-size: 10px;
+}
+
+.naver-text > p {
+    color: #e7343a;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.copyright {
+    padding-top: 8px;
+}
+
+.social {
+    padding-top: 0px;
+}
+
+.img-thumbnail {
+    padding: 0.25rem;
+    margin-top: 5px;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+    border-radius: 0.25rem;
+    max-width: 100%;
+    height: auto;
+    }
+
+/* Lifted form the bootsrap.css file, and modified to emulate the nav-bar
+menu styling */
+.nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link {
+    color: #760003; /* Font color for active font */
+    background-color: #3399ff; /* Blue color for background */
+    border-color: #dee2e6 #dee2e6 #fff;
+    }
+
+.nav-tabs .nav-link {
+    color: white;
+    border: 1px solid transparent;
+    border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;
+    }
+    /* Added this to emulate the nav-bar link styling */
+    .nav-tabs .nav-link:hover {
+    color: green;
+    border: 1px solid transparent;
+    }
